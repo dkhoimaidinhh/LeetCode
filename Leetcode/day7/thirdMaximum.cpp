@@ -32,4 +32,6 @@ public:
         }
         return (max3 == LONG_MIN)? (int)max1 : (int)max3;
     }
+    // This is the second solution to the third maximum number problem.
+    // It uses a single pass with O(n) time complexity and O(1) space complexity. But I think this is the best one.
 };
